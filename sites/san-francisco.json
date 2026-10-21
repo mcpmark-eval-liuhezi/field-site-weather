@@ -1,0 +1,53 @@
+{
+  "site_name": "San Francisco office",
+  "location": "SoMa (South of Market), San Francisco, CA",
+  "coordinates": {
+    "latitude": 37.7808925,
+    "longitude": -122.4009518
+  },
+  "coordinate_source": {
+    "service": "OpenStreetMap Nominatim geocoding",
+    "url": "https://nominatim.openstreetmap.org/search?q=South+of+Market%2C+San+Francisco%2C+CA&format=json&limit=5",
+    "matched_feature": "South of Market, San Francisco, California, United States",
+    "retrieved": "2026-10-21"
+  },
+  "nearest_stations": [
+    {
+      "id": "SFOC1",
+      "name": "SAN FRANCISCO DOWNTOWN",
+      "elevation_ft": 150,
+      "distance_miles": 1.0
+    },
+    {
+      "id": "OAMC1",
+      "name": "Oakland Museum",
+      "elevation_ft": 30,
+      "distance_miles": 8.2
+    },
+    {
+      "id": "D3169",
+      "name": "DW3169 Oakland",
+      "elevation_ft": 96,
+      "distance_miles": 9.6
+    },
+    {
+      "id": "KSFO",
+      "name": "San Francisco, San Francisco International Airport",
+      "elevation_ft": 10,
+      "distance_miles": 10.8
+    },
+    {
+      "id": "D6436",
+      "name": "DW6436 Berkeley",
+      "elevation_ft": 170,
+      "distance_miles": 10.9
+    }
+  ],
+  "current_conditions": {
+    "station_id": "SFOC1",
+    "observed_local": "2026-10-21 11:43 AM",
+    "temperature_f": 63.9,
+    "temperature_c": 17.7,
+    "humidity_percent": 65
+  }
+}

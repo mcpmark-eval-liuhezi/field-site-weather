@@ -1,0 +1,56 @@
+{
+  "site_name": "Manhattan office",
+  "location": "Midtown East, New York, NY",
+  "coordinates": {
+    "latitude": 40.7598219,
+    "longitude": -73.9724708
+  },
+  "coordinate_source": {
+    "service": "OpenStreetMap Nominatim geocoding",
+    "url": "https://nominatim.openstreetmap.org/search?q=Midtown+East%2C+Manhattan%2C+New+York%2C+NY&format=json&limit=5",
+    "matched_feature": "Midtown East, Manhattan Community Board 5, Manhattan, New York County, New York, 10055, United States",
+    "retrieved": "2026-10-21"
+  },
+  "nearest_stations": [
+    {
+      "id": "KNYC",
+      "name": "New York City, Central Park",
+      "elevation_ft": 154,
+      "distance_miles": 2.0
+    },
+    {
+      "id": "KLGA",
+      "name": "New York, La Guardia Airport",
+      "elevation_ft": 20,
+      "distance_miles": 5.3
+    },
+    {
+      "id": "KTEB",
+      "name": "Teterboro, Teterboro Airport",
+      "elevation_ft": 7,
+      "distance_miles": 8.4
+    },
+    {
+      "id": "KEWR",
+      "name": "Newark, Newark International Airport",
+      "elevation_ft": 16,
+      "distance_miles": 11.3
+    },
+    {
+      "id": "KJFK",
+      "name": "New York, Kennedy International Airport",
+      "elevation_ft": 10,
+      "distance_miles": 13.6
+    }
+  ],
+  "current_conditions": {
+    "station_id": "KNYC",
+    "observed_local": "2026-10-21 2:51 PM",
+    "temperature_f": 61.0,
+    "temperature_c": 16.1,
+    "conditions": "Clear",
+    "humidity_percent": 42,
+    "pressure_inhg": 30.15,
+    "visibility_miles": 10.0
+  }
+}

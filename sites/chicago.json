@@ -1,0 +1,59 @@
+{
+  "site_name": "Chicago office",
+  "location": "The Loop, Chicago, IL",
+  "coordinates": {
+    "latitude": 41.8816094,
+    "longitude": -87.6294574
+  },
+  "coordinate_source": {
+    "service": "OpenStreetMap Nominatim geocoding",
+    "url": "https://nominatim.openstreetmap.org/search?q=The+Loop%2C+Chicago%2C+IL&format=json&limit=5",
+    "matched_feature": "Loop, Chicago, South Chicago Township, Cook County, Illinois, United States",
+    "retrieved": "2026-10-21"
+  },
+  "nearest_stations": [
+    {
+      "id": "KMDW",
+      "name": "Chicago, Chicago Midway Airport",
+      "elevation_ft": 617,
+      "distance_miles": 9.6
+    },
+    {
+      "id": "KORD",
+      "name": "Chicago, Chicago-O'Hare International Airport",
+      "elevation_ft": 666,
+      "distance_miles": 16.4
+    },
+    {
+      "id": "KGYY",
+      "name": "Gary Regional Airport",
+      "elevation_ft": 584,
+      "distance_miles": 21.2
+    },
+    {
+      "id": "KPWK",
+      "name": "Chicago / Wheeling, Pal-Waukee Airport",
+      "elevation_ft": 646,
+      "distance_miles": 22.4
+    },
+    {
+      "id": "KIGQ",
+      "name": "Lansing Municipal Airport",
+      "elevation_ft": 607,
+      "distance_miles": 23.6
+    }
+  ],
+  "current_conditions": {
+    "station_id": "KMDW",
+    "observed_local": "2026-10-21 2:40 PM",
+    "temperature_f": 71.6,
+    "temperature_c": 22.0,
+    "feels_like_f": 69.9,
+    "heat_index_f": 69.9,
+    "conditions": "Mostly Clear",
+    "humidity_percent": 31,
+    "wind": "17 mph from 220 degrees",
+    "pressure_inhg": 30.22,
+    "visibility_miles": 10.0
+  }
+}
