@@ -1,0 +1,31 @@
+name: Validate field-site JSON
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate site JSON files parse
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=(sites/*.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "ERROR: no site JSON files found under sites/" >&2
+            exit 1
+          fi
+          status=0
+          for f in "${files[@]}"; do
+            if python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f"; then
+              echo "OK: $f parses as valid JSON"
+            else
+              echo "FAIL: $f is not valid JSON" >&2
+              status=1
+            fi
+          done
+          exit "$status"
