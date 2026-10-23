@@ -2,14 +2,14 @@
   "site_name": "Chicago office",
   "location": "The Loop, Chicago, IL",
   "coordinates": {
-    "latitude": 41.8816094,
-    "longitude": -87.6294574
+    "latitude": 41.88111,
+    "longitude": -87.62972
   },
   "coordinate_source": {
-    "service": "OpenStreetMap Nominatim geocoding",
-    "url": "https://nominatim.openstreetmap.org/search?q=The+Loop%2C+Chicago%2C+IL&format=json&limit=5",
-    "matched_feature": "Loop, Chicago, South Chicago Township, Cook County, Illinois, United States",
-    "retrieved": "2026-10-21"
+    "service": "Wikipedia (public web page lookup)",
+    "url": "https://en.wikipedia.org/wiki/Loop_(Chicago)",
+    "page_title": "The Loop",
+    "retrieved": "2026-10-23"
   },
   "nearest_stations": [
     {
@@ -45,15 +45,13 @@
   ],
   "current_conditions": {
     "station_id": "KMDW",
-    "observed_local": "2026-10-21 2:40 PM",
-    "temperature_f": 71.6,
-    "temperature_c": 22.0,
-    "feels_like_f": 69.9,
-    "heat_index_f": 69.9,
-    "conditions": "Mostly Clear",
-    "humidity_percent": 31,
-    "wind": "17 mph from 220 degrees",
-    "pressure_inhg": 30.22,
+    "observed_local": "2026-10-23 10:00 AM",
+    "temperature_f": 60.8,
+    "temperature_c": 16.0,
+    "conditions": "Clear",
+    "humidity_percent": 59,
+    "wind": "12 mph from 170 degrees",
+    "pressure_inhg": 30.35,
     "visibility_miles": 10.0
   }
 }
