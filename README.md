@@ -19,9 +19,18 @@ Each site file records:
 
 ## Where the data comes from
 
-- **Site coordinates:** looked up on the public web via the OpenStreetMap Nominatim geocoding service (https://nominatim.openstreetmap.org/). The exact source URL for each site's coordinates is recorded in that site's JSON file.
-- **Weather stations:** the nearest observation stations (ASOS/AWOS and other automated stations) for each site's coordinates.
-- **Current conditions:** baseline snapshots retrieved from the nearest reporting weather observation station at registry creation time.
+- **Site coordinates:** looked up on the public web (Wikipedia). The exact source URL for each site's coordinates is recorded in that site's JSON file:
+
+  | Site | Coordinates | Source page |
+  | --- | --- | --- |
+  | Manhattan (Midtown East, New York, NY) | 40.7547, -73.9842 | https://en.wikipedia.org/wiki/Midtown_Manhattan |
+  | Chicago (The Loop) | 41.88111, -87.62972 | https://en.wikipedia.org/wiki/Loop_(Chicago) |
+  | San Francisco (SoMa) | 37.77722, -122.41111 | https://en.wikipedia.org/wiki/South_of_Market_(San_Francisco) |
+
+  The coordinates are the geocoded feature coordinates published on each page: `40.7547, -73.9842` for Midtown Manhattan, `41.88111, -87.62972` for The Loop, and `37.77722, -122.41111` for South of Market.
+
+- **Weather stations:** the nearest observation stations (ASOS/AWOS and other automated stations) for each site's coordinates, looked up from the public weather-observation-station service.
+- **Current conditions:** baseline snapshots retrieved from the nearest reporting weather observation station at registry creation time (baseline captured 2026-10-23; station reporting lag is noted per site where it applies).
 
 ## Data flow
 
