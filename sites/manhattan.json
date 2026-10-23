@@ -2,14 +2,14 @@
   "site_name": "Manhattan office",
   "location": "Midtown East, New York, NY",
   "coordinates": {
-    "latitude": 40.7598219,
-    "longitude": -73.9724708
+    "latitude": 40.7547,
+    "longitude": -73.9842
   },
   "coordinate_source": {
-    "service": "OpenStreetMap Nominatim geocoding",
-    "url": "https://nominatim.openstreetmap.org/search?q=Midtown+East%2C+Manhattan%2C+New+York%2C+NY&format=json&limit=5",
-    "matched_feature": "Midtown East, Manhattan Community Board 5, Manhattan, New York County, New York, 10055, United States",
-    "retrieved": "2026-10-21"
+    "service": "Wikipedia (public web page lookup)",
+    "url": "https://en.wikipedia.org/wiki/Midtown_Manhattan",
+    "page_title": "Midtown Manhattan",
+    "retrieved": "2026-10-23"
   },
   "nearest_stations": [
     {
@@ -45,12 +45,13 @@
   ],
   "current_conditions": {
     "station_id": "KNYC",
-    "observed_local": "2026-10-21 2:51 PM",
-    "temperature_f": 61.0,
-    "temperature_c": 16.1,
+    "observed_local": "2026-10-23 10:51 AM",
+    "temperature_f": 53.1,
+    "temperature_c": 11.7,
     "conditions": "Clear",
-    "humidity_percent": 42,
-    "pressure_inhg": 30.15,
+    "humidity_percent": 36,
+    "wind": "54 mph from 70 degrees",
+    "pressure_inhg": 30.39,
     "visibility_miles": 10.0
   }
 }
