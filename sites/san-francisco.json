@@ -2,14 +2,14 @@
   "site_name": "San Francisco office",
   "location": "SoMa (South of Market), San Francisco, CA",
   "coordinates": {
-    "latitude": 37.7808925,
-    "longitude": -122.4009518
+    "latitude": 37.77722,
+    "longitude": -122.41111
   },
   "coordinate_source": {
-    "service": "OpenStreetMap Nominatim geocoding",
-    "url": "https://nominatim.openstreetmap.org/search?q=South+of+Market%2C+San+Francisco%2C+CA&format=json&limit=5",
-    "matched_feature": "South of Market, San Francisco, California, United States",
-    "retrieved": "2026-10-21"
+    "service": "Wikipedia (public web page lookup)",
+    "url": "https://en.wikipedia.org/wiki/South_of_Market_(San_Francisco)",
+    "page_title": "South of Market, San Francisco",
+    "retrieved": "2026-10-23"
   },
   "nearest_stations": [
     {
@@ -45,9 +45,11 @@
   ],
   "current_conditions": {
     "station_id": "SFOC1",
-    "observed_local": "2026-10-21 11:43 AM",
-    "temperature_f": 63.9,
-    "temperature_c": 17.7,
-    "humidity_percent": 65
+    "observed_local": "2026-10-22 5:43 AM",
+    "temperature_f": 58.7,
+    "temperature_c": 14.8,
+    "humidity_percent": 84,
+    "conditions": null,
+    "note": "Snapshot captured 2026-10-23 8:30 AM PDT from SFOC1 (nearest reporting station). The station's latest observation predates capture by ~27 hours (10/22 5:43 AM PDT), so conditions, wind, pressure and visibility were not reported at capture time."
   }
 }
