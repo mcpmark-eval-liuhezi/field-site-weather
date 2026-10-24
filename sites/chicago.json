@@ -9,7 +9,7 @@
     "service": "Wikipedia (public web page lookup)",
     "url": "https://en.wikipedia.org/wiki/Loop_(Chicago)",
     "page_title": "The Loop",
-    "retrieved": "2026-10-23"
+    "retrieved": "2026-10-24"
   },
   "nearest_stations": [
     {
@@ -45,13 +45,13 @@
   ],
   "current_conditions": {
     "station_id": "KMDW",
-    "observed_local": "2026-10-23 10:00 AM",
-    "temperature_f": 60.8,
-    "temperature_c": 16.0,
+    "observed_local": "2026-10-24 08:55 AM",
+    "temperature_f": 53.6,
+    "temperature_c": 12.0,
     "conditions": "Clear",
-    "humidity_percent": 59,
-    "wind": "12 mph from 170 degrees",
-    "pressure_inhg": 30.35,
+    "humidity_percent": 71,
+    "wind": "17 mph from 180 degrees",
+    "pressure_inhg": 30.42,
     "visibility_miles": 10.0
   }
 }
