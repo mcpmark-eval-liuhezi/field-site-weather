@@ -1,0 +1,58 @@
+{
+  "site_name": "San Francisco office",
+  "location": "SoMa (South of Market), San Francisco, CA",
+  "coordinates": {
+    "latitude": 37.77722,
+    "longitude": -122.41111
+  },
+  "coordinate_source": {
+    "service": "Wikipedia (public web page lookup)",
+    "url": "https://en.wikipedia.org/wiki/South_of_Market_(San_Francisco)",
+    "page_title": "South of Market, San Francisco",
+    "retrieved": "2026-10-24"
+  },
+  "nearest_stations": [
+    {
+      "id": "SFOC1",
+      "name": "SAN FRANCISCO DOWNTOWN",
+      "elevation_ft": 150,
+      "distance_miles": 1.0
+    },
+    {
+      "id": "OAMC1",
+      "name": "Oakland Museum",
+      "elevation_ft": 30,
+      "distance_miles": 8.2
+    },
+    {
+      "id": "D3169",
+      "name": "DW3169 Oakland",
+      "elevation_ft": 96,
+      "distance_miles": 9.6
+    },
+    {
+      "id": "KSFO",
+      "name": "San Francisco, San Francisco International Airport",
+      "elevation_ft": 10,
+      "distance_miles": 10.8
+    },
+    {
+      "id": "D6436",
+      "name": "DW6436 Berkeley",
+      "elevation_ft": 170,
+      "distance_miles": 10.9
+    }
+  ],
+  "current_conditions": {
+    "station_id": "SFOC1",
+    "observed_local": "2026-10-22 05:43 AM",
+    "temperature_f": 58.7,
+    "temperature_c": 14.8,
+    "conditions": null,
+    "humidity_percent": 84,
+    "wind": null,
+    "pressure_inhg": null,
+    "visibility_miles": null,
+    "note": "Baseline snapshot captured 2026-10-24 07:15 AM PDT from SFOC1, the nearest reporting station (1.0 mi). SFOC1's latest observation predates capture by ~49.5 hours (2026-10-22 05:43 AM PDT) and did not include conditions, wind, pressure or visibility; those fields are null at capture time. Fallback for current reporting: KSFO San Francisco Intl (10.8 mi) reported 2026-10-24 06:40 AM: 53.6°F, Clear, 10.0 mi visibility."
+  }
+}

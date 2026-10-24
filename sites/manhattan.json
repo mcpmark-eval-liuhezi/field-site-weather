@@ -1,0 +1,57 @@
+{
+  "site_name": "Manhattan office",
+  "location": "Midtown East, New York, NY",
+  "coordinates": {
+    "latitude": 40.7547,
+    "longitude": -73.9842
+  },
+  "coordinate_source": {
+    "service": "Wikipedia (public web page lookup)",
+    "url": "https://en.wikipedia.org/wiki/Midtown_Manhattan",
+    "page_title": "Midtown Manhattan",
+    "retrieved": "2026-10-24"
+  },
+  "nearest_stations": [
+    {
+      "id": "KNYC",
+      "name": "New York City, Central Park",
+      "elevation_ft": 154,
+      "distance_miles": 2.0
+    },
+    {
+      "id": "KLGA",
+      "name": "New York, La Guardia Airport",
+      "elevation_ft": 20,
+      "distance_miles": 5.3
+    },
+    {
+      "id": "KTEB",
+      "name": "Teterboro, Teterboro Airport",
+      "elevation_ft": 7,
+      "distance_miles": 8.4
+    },
+    {
+      "id": "KEWR",
+      "name": "Newark, Newark International Airport",
+      "elevation_ft": 16,
+      "distance_miles": 11.3
+    },
+    {
+      "id": "KJFK",
+      "name": "New York, Kennedy International Airport",
+      "elevation_ft": 10,
+      "distance_miles": 13.6
+    }
+  ],
+  "current_conditions": {
+    "station_id": "KNYC",
+    "observed_local": "2026-10-24 08:51 AM",
+    "temperature_f": 48.9,
+    "temperature_c": 9.4,
+    "conditions": "Clear",
+    "humidity_percent": 56,
+    "wind": "0 mph from 0 degrees",
+    "pressure_inhg": 30.57,
+    "visibility_miles": 10.0
+  }
+}
