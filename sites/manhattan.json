@@ -9,7 +9,7 @@
     "service": "Wikipedia (public web page lookup)",
     "url": "https://en.wikipedia.org/wiki/Midtown_Manhattan",
     "page_title": "Midtown Manhattan",
-    "retrieved": "2026-10-24"
+    "retrieved": "2026-10-30"
   },
   "nearest_stations": [
     {
@@ -45,13 +45,13 @@
   ],
   "current_conditions": {
     "station_id": "KNYC",
-    "observed_local": "2026-10-24 08:51 AM",
-    "temperature_f": 48.9,
-    "temperature_c": 9.4,
+    "observed_local": "2026-10-30 10:51 AM",
+    "temperature_f": 66.0,
+    "temperature_c": 18.9,
     "conditions": "Clear",
-    "humidity_percent": 56,
-    "wind": "0 mph from 0 degrees",
-    "pressure_inhg": 30.57,
-    "visibility_miles": 10.0
+    "humidity_percent": 61,
+    "pressure_inhg": 30.05,
+    "visibility_miles": 10.0,
+    "note": "Baseline snapshot captured 2026-10-30 from nearest reporting station KNYC (New York City, Central Park), 2.0 mi from site. Clear, moderate humidity, good visibility."
   }
 }
