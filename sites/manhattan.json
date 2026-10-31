@@ -1,4 +1,4 @@
-<n>{
+{
   "site_name": "Manhattan office (Midtown East)",
   "location": "Midtown East, Manhattan, New York, NY",
   "coordinates": {
@@ -56,4 +56,4 @@
     "visibility_miles": 10.0,
     "note": "Baseline snapshot captured 2026-10-31 ~08:25 local from nearest reporting station KNYC (New York City, Central Park), 2.0 mi from site. Clear, 68% humidity, light calm winds, good visibility."
   }
-}</n>
+}
