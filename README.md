@@ -24,13 +24,13 @@ Each site file records:
   | Site | Coordinates | Source page |
   | --- | --- | --- |
   | Manhattan (Midtown East, New York, NY) | 40.7547, -73.9842 | https://en.wikipedia.org/wiki/Midtown_Manhattan |
-  | Chicago (The Loop) | 41.88111, -87.62972 | https://en.wikipedia.org/wiki/Loop_(Chicago) |
-  | San Francisco (SoMa) | 37.77722, -122.41111 | https://en.wikipedia.org/wiki/South_of_Market_(San_Francisco) |
+  | Chicago (The Loop, IL) | 41.88111, -87.62972 | https://en.wikipedia.org/wiki/Chicago_Loop |
+  | San Francisco (SoMa, CA) | 37.77722, -122.41111 | https://en.wikipedia.org/wiki/South_of_Market_(San_Francisco) |
 
   The coordinates are the geocoded feature coordinates published on each page: `40.7547, -73.9842` for Midtown Manhattan, `41.88111, -87.62972` for The Loop, and `37.77722, -122.41111` for South of Market.
 
 - **Weather stations:** the nearest observation stations (ASOS/AWOS and other automated stations) for each site's coordinates, looked up from the public weather-observation-station service.
-- **Current conditions:** baseline snapshots retrieved from the nearest reporting weather observation station at registry creation time (baseline captured 2026-10-23; station reporting lag is noted per site where it applies).
+- **Current conditions:** baseline snapshots retrieved from the nearest reporting weather observation station at registry creation time (baseline captured 2026-10-31).
 
 ## Data flow
 
