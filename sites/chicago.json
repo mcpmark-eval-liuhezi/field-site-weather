@@ -45,7 +45,7 @@
   ],
   "current_conditions": {
     "station_id": "KMDW",
-    "observed_local": "2026-10-31 06:55 AM local (31 min before capture)",
+    "observed_local": "2026-10-31 06:55 AM local (35 min before capture)",
     "temperature_f": 55.4,
     "temperature_c": 13.0,
     "conditions": "Cloudy",
@@ -54,6 +54,6 @@
     "wind_dir_deg": 170,
     "pressure_inhg": 30.37,
     "visibility_miles": 10.0,
-    "note": "Baseline snapshot captured 2026-10-31 ~08:26 local from the nearest reporting station KMDW (Chicago Midway), 9.6 mi from site. Cloudy, 67% humidity, wind 17 mph from 170°, visibility 10.0 mi."
+    "note": "Baseline snapshot captured 2026-10-31 ~08:30 local from nearest reporting station KMDW (Chicago Midway), 9.6 mi from site. Cloudy, 67% humidity, wind 17 mph from 170°, visibility 10.0 mi."
   }
 }
