@@ -2,13 +2,13 @@
   "site_name": "San Francisco office (SoMa)",
   "location": "South of Market (SoMa), San Francisco, CA",
   "coordinates": {
-    "latitude": 37.77750,
-    "longitude": -122.41639
+    "latitude": 37.77722,
+    "longitude": -122.41111
   },
   "coordinate_source": {
     "service": "Public web lookup (Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/San_Francisco",
-    "page_title": "San Francisco",
+    "url": "https://en.wikipedia.org/wiki/South_of_Market,_San_Francisco",
+    "page_title": "South of Market, San Francisco",
     "retrieved": "2026-10-31"
   },
   "nearest_stations": [
@@ -45,7 +45,7 @@
   ],
   "current_conditions": {
     "station_id": "SFOC1",
-    "observed_local": "2026-10-31 04:43 AM local (47 min before capture)",
+    "observed_local": "2026-10-31 04:43 AM local (50 min before capture)",
     "temperature_f": 55.1,
     "temperature_c": 12.8,
     "conditions": null,
