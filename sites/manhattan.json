@@ -2,13 +2,13 @@
   "site_name": "Manhattan office (Midtown East)",
   "location": "Midtown East, Manhattan, New York, NY",
   "coordinates": {
-    "latitude": 40.7598219,
-    "longitude": -73.9724708
+    "latitude": 40.7547,
+    "longitude": -73.9842
   },
   "coordinate_source": {
-    "service": "Nominatim OpenStreetMap geocoder (public web lookup)",
-    "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Midtown+East+Manhattan",
-    "page_title": "Midtown East, Manhattan Community Board 5, Manhattan, New York County, New York, 10055, United States",
+    "service": "Public web lookup (Wikipedia feature coordinates)",
+    "url": "https://en.wikipedia.org/wiki/Midtown_East,_Manhattan",
+    "page_title": "Midtown Manhattan",
     "retrieved": "2026-10-31"
   },
   "nearest_stations": [
@@ -45,7 +45,7 @@
   ],
   "current_conditions": {
     "station_id": "KNYC",
-    "observed_local": "2026-10-31 07:51 AM local (34 min before capture)",
+    "observed_local": "2026-10-31 07:51 AM local (36 min before capture)",
     "temperature_f": 46.9,
     "temperature_c": 8.3,
     "conditions": "Clear",
@@ -54,6 +54,6 @@
     "wind_dir_deg": 0,
     "pressure_inhg": 30.42,
     "visibility_miles": 10.0,
-    "note": "Baseline snapshot captured 2026-10-31 ~08:25 local from nearest reporting station KNYC (New York City, Central Park), 2.0 mi from site. Clear, 68% humidity, light calm winds, good visibility."
+    "note": "Baseline snapshot captured 2026-10-31 ~08:27 local from nearest reporting station KNYC (New York City, Central Park), 2.0 mi from site. Clear, 68% humidity, calm winds, good visibility."
   }
 }

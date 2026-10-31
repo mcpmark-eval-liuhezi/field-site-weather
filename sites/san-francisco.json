@@ -2,13 +2,13 @@
   "site_name": "San Francisco office (SoMa)",
   "location": "South of Market (SoMa), San Francisco, CA",
   "coordinates": {
-    "latitude": 37.7808925,
-    "longitude": -122.4009518
+    "latitude": 37.77722,
+    "longitude": -122.41111
   },
   "coordinate_source": {
-    "service": "Nominatim OpenStreetMap geocoder (public web lookup)",
-    "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=South+of+Market+San+Francisco",
-    "page_title": "South of Market, San Francisco, California, United States",
+    "service": "Public web lookup (Wikipedia feature coordinates)",
+    "url": "https://en.wikipedia.org/wiki/South_of_Market,_San_Francisco",
+    "page_title": "South of Market, San Francisco",
     "retrieved": "2026-10-31"
   },
   "nearest_stations": [
@@ -45,7 +45,7 @@
   ],
   "current_conditions": {
     "station_id": "SFOC1",
-    "observed_local": "2026-10-31 04:43 AM local (42 min before capture)",
+    "observed_local": "2026-10-31 04:43 AM local (44 min before capture)",
     "temperature_f": 55.1,
     "temperature_c": 12.8,
     "conditions": null,
@@ -54,6 +54,6 @@
     "wind_dir_deg": null,
     "pressure_inhg": null,
     "visibility_miles": null,
-    "note": "Baseline snapshot captured 2026-10-31 ~05:25 local from nearest reporting station SFOC1 (San Francisco Downtown), 1.0 mi from site. Temperature 55.1°F and humidity 74% reported; conditions, wind, pressure, and visibility were not reported by the observation. KSFO (10.8 mi) is the current-reporting fallback for SoMa."
+    "note": "Baseline snapshot captured 2026-10-31 ~08:27 local from nearest reporting station SFOC1 (San Francisco Downtown), 1.0 mi from site. Temperature 55.1°F and humidity 74% reported; conditions, wind, pressure, and visibility were not reported by the observation. KSFO (10.8 mi) is the current-reporting fallback for SoMa."
   }
 }
