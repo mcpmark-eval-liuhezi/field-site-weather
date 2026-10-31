@@ -6,8 +6,8 @@
     "longitude": -73.9842
   },
   "coordinate_source": {
-    "service": "Public web lookup (Wikipedia feature coordinates)",
-    "url": "https://en.wikipedia.org/wiki/Midtown_East,_Manhattan",
+    "service": "Public web lookup (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Midtown_Manhattan",
     "page_title": "Midtown Manhattan",
     "retrieved": "2026-10-31"
   },
@@ -45,7 +45,7 @@
   ],
   "current_conditions": {
     "station_id": "KNYC",
-    "observed_local": "2026-10-31 07:51 AM local (36 min before capture)",
+    "observed_local": "2026-10-31 07:51 AM local (35 min before capture)",
     "temperature_f": 46.9,
     "temperature_c": 8.3,
     "conditions": "Clear",
@@ -54,6 +54,6 @@
     "wind_dir_deg": 0,
     "pressure_inhg": 30.42,
     "visibility_miles": 10.0,
-    "note": "Baseline snapshot captured 2026-10-31 ~08:27 local from nearest reporting station KNYC (New York City, Central Park), 2.0 mi from site. Clear, 68% humidity, calm winds, good visibility."
+    "note": "Baseline snapshot captured 2026-10-31 ~08:26 local from nearest reporting station KNYC (New York City, Central Park), 2.0 mi from site. Clear, 68% humidity, calm winds, good visibility."
   }
 }

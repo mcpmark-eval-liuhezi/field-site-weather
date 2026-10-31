@@ -6,8 +6,8 @@
     "longitude": -87.62972
   },
   "coordinate_source": {
-    "service": "Public web lookup (Wikipedia feature coordinates)",
-    "url": "https://en.wikipedia.org/wiki/Loop_(Chicago)",
+    "service": "Public web lookup (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Chicago_Loop",
     "page_title": "The Loop",
     "retrieved": "2026-10-31"
   },
@@ -34,18 +34,18 @@
       "id": "KPWK",
       "name": "Chicago / Wheeling, Pal-Waukee Airport",
       "elevation_ft": 646,
-      "distance_miles": 23.6
+      "distance_miles": 22.4
     },
     {
       "id": "KIGQ",
       "name": "Lansing Municipal Airport",
       "elevation_ft": 607,
-      "distance_miles": 21.2
+      "distance_miles": 23.6
     }
   ],
   "current_conditions": {
     "station_id": "KMDW",
-    "observed_local": "2026-10-31 06:55 AM local (32 min before capture)",
+    "observed_local": "2026-10-31 06:55 AM local (31 min before capture)",
     "temperature_f": 55.4,
     "temperature_c": 13.0,
     "conditions": "Cloudy",
@@ -54,6 +54,6 @@
     "wind_dir_deg": 170,
     "pressure_inhg": 30.37,
     "visibility_miles": 10.0,
-    "note": "Baseline snapshot captured 2026-10-31 ~08:27 local from nearest reporting station KMDW (Chicago Midway), 9.6 mi from site. Cloudy, 67% humidity, wind 17 mph from 170°, visibility 10.0 mi."
+    "note": "Baseline snapshot captured 2026-10-31 ~08:26 local from the nearest reporting station KMDW (Chicago Midway), 9.6 mi from site. Cloudy, 67% humidity, wind 17 mph from 170°, visibility 10.0 mi."
   }
 }
