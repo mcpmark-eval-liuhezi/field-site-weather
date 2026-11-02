@@ -2,14 +2,15 @@
   "site_name": "San Francisco office (SoMa)",
   "location": "South of Market (SoMa), San Francisco, CA",
   "coordinates": {
-    "latitude": 37.77722,
-    "longitude": -122.41111
+    "latitude": 37.7808925,
+    "longitude": -122.4009518
   },
   "coordinate_source": {
-    "service": "Public web lookup (Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/South_of_Market,_San_Francisco",
-    "page_title": "South of Market, San Francisco",
-    "retrieved": "2026-10-31"
+    "service": "Nominatim OpenStreetMap geocoder",
+    "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=SoMa, San Francisco, CA, USA",
+    "place_id": 427551006,
+    "display_name": "South of Market, San Francisco, California, United States",
+    "retrieved": "2026-11-02"
   },
   "nearest_stations": [
     {
@@ -27,7 +28,7 @@
     {
       "id": "D3169",
       "name": "DW3169 Oakland",
-      "elevation_ft": 96,
+      "elevation_ft": 10100,
       "distance_miles": 9.6
     },
     {
@@ -45,15 +46,10 @@
   ],
   "current_conditions": {
     "station_id": "SFOC1",
-    "observed_local": "2026-10-31 04:43 AM local (50 min before capture)",
-    "temperature_f": 55.1,
-    "temperature_c": 12.8,
-    "conditions": null,
-    "humidity_percent": 74,
-    "wind_mph": null,
-    "wind_dir_deg": null,
-    "pressure_inhg": null,
-    "visibility_miles": null,
-    "note": "Baseline snapshot captured 2026-10-31 ~08:30 local from nearest reporting station SFOC1 (San Francisco Downtown), 1.0 mi from site. Temperature 55.1F and humidity 74% reported; conditions, wind, pressure, and visibility were not reported by the observation. KSFO (10.8 mi) is the current-reporting fallback for SoMa."
+    "observed_local": "2026-11-02 2:43 PM local (32m ago at capture)",
+    "temperature_f": 63.7,
+    "temperature_c": 17.6,
+    "humidity_percent": 46,
+    "note": "Baseline snapshot captured 2026-11-02 from nearest reporting station SFOC1 (San Francisco Downtown), 1.0 mi from site. Temperature 63.7F and humidity 46% reported; conditions, wind, pressure, and visibility were not reported by the observation. KSFO (10.8 mi) is the current-reporting fallback for SoMa."
   }
 }
