@@ -2,14 +2,15 @@
   "site_name": "Chicago office (The Loop)",
   "location": "The Loop, Chicago, IL",
   "coordinates": {
-    "latitude": 41.88111,
-    "longitude": -87.62972
+    "latitude": 41.8816094,
+    "longitude": -87.6294574
   },
   "coordinate_source": {
-    "service": "Public web lookup (Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/Chicago_Loop",
-    "page_title": "The Loop",
-    "retrieved": "2026-10-31"
+    "service": "Nominatim OpenStreetMap geocoder",
+    "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=The Loop, Chicago, IL, USA",
+    "place_id": 372229770,
+    "display_name": "Loop, Chicago, South Chicago Township, Cook County, Illinois, United States",
+    "retrieved": "2026-11-02"
   },
   "nearest_stations": [
     {
@@ -45,15 +46,15 @@
   ],
   "current_conditions": {
     "station_id": "KMDW",
-    "observed_local": "2026-10-31 06:55 AM local (35 min before capture)",
-    "temperature_f": 55.4,
-    "temperature_c": 13.0,
+    "observed_local": "2026-11-02 4:55 PM local (20m ago at capture)",
+    "temperature_f": 60.8,
+    "temperature_c": 16.0,
     "conditions": "Cloudy",
-    "humidity_percent": 67,
-    "wind_mph": 17,
+    "humidity_percent": 88,
+    "wind_mph": 46,
     "wind_dir_deg": 170,
-    "pressure_inhg": 30.37,
+    "pressure_inhg": 30.00,
     "visibility_miles": 10.0,
-    "note": "Baseline snapshot captured 2026-10-31 ~08:30 local from nearest reporting station KMDW (Chicago Midway), 9.6 mi from site. Cloudy, 67% humidity, wind 17 mph from 170°, visibility 10.0 mi."
+    "note": "Baseline snapshot captured 2026-11-02 from nearest reporting station KMDW (Chicago Midway), 9.6 mi from site. Cloudy, 88% humidity, wind 46 mph from 170°, pressure 30.00 inHg, visibility 10.0 mi."
   }
 }
