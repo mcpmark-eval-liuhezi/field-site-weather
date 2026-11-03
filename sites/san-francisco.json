@@ -7,49 +7,24 @@
   },
   "coordinate_source": {
     "service": "Nominatim OpenStreetMap geocoder",
-    "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=SoMa, San Francisco, CA, USA",
+    "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=SoMa+San+Francisco+CA+USA",
     "place_id": 427551006,
     "display_name": "South of Market, San Francisco, California, United States",
     "retrieved": "2026-11-02"
   },
   "nearest_stations": [
-    {
-      "id": "SFOC1",
-      "name": "SAN FRANCISCO DOWNTOWN",
-      "elevation_ft": 150,
-      "distance_miles": 1.0
-    },
-    {
-      "id": "OAMC1",
-      "name": "Oakland Museum",
-      "elevation_ft": 30,
-      "distance_miles": 8.2
-    },
-    {
-      "id": "D3169",
-      "name": "DW3169 Oakland",
-      "elevation_ft": 10100,
-      "distance_miles": 9.6
-    },
-    {
-      "id": "KSFO",
-      "name": "San Francisco, San Francisco International Airport",
-      "elevation_ft": 10,
-      "distance_miles": 10.8
-    },
-    {
-      "id": "D6436",
-      "name": "DW6436 Berkeley",
-      "elevation_ft": 170,
-      "distance_miles": 10.9
-    }
+    {"id": "SFOC1", "name": "SAN FRANCISCO DOWNTOWN", "elevation_ft": 150, "distance_miles": 1.0},
+    {"id": "OAMC1", "name": "Oakland Museum", "elevation_ft": 30, "distance_miles": 8.2},
+    {"id": "D3169", "name": "DW3169 Oakland", "elevation_ft": 10100, "distance_miles": 9.6},
+    {"id": "KSFO", "name": "San Francisco, San Francisco International Airport", "elevation_ft": 10, "distance_miles": 10.8},
+    {"id": "D6436", "name": "DW6436 Berkeley", "elevation_ft": 170, "distance_miles": 10.9}
   ],
   "current_conditions": {
-    "station_id": "SFOC1",
-    "observed_local": "2026-11-02 2:43 PM local (32m ago at capture)",
-    "temperature_f": 63.7,
-    "temperature_c": 17.6,
-    "humidity_percent": 46,
-    "note": "Baseline snapshot captured 2026-11-02 from nearest reporting station SFOC1 (San Francisco Downtown), 1.0 mi from site. Temperature 63.7F and humidity 46% reported; conditions, wind, pressure, and visibility were not reported by the observation. KSFO (10.8 mi) is the current-reporting fallback for SoMa."
+    "kid": "SFOC1",
+    "observed_local": "2026-11-02 4:43 PM local (47 min ago at capture)",
+    "temperature_f": 62.3,
+    "temperature_c": 16.8,
+    "humidity_percent": 58,
+    "note": "Baseline snapshot captured 2026-11-02 from nearest reporting station SFOC1 (San Francisco Downtown), 1.0 mi from site. Temperature 62.3F and humidity 58% reported; conditions, wind, pressure, and visibility were not reported by the observation. KSFO (10.8 mi) is the current-reporting fallback for SoMa."
   }
 }
