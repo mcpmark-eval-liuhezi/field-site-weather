@@ -1,0 +1,35 @@
+{
+  "site_name": "Chicago office (The Loop)",
+  "location": "The Loop, Chicago, IL",
+  "coordinates": {
+    "latitude": 41.8816094,
+    "longitude": -87.6294574
+  },
+  "coordinate_source": {
+    "service": "Nominatim OpenStreetMap geocoder",
+    "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=The+Loop+Chicago+IL+USA",
+    "place_id": 372229770,
+    "display_name": "Loop, Chicago, South Chicago Township, Cook County, Illinois, United States",
+    "retrieved": "2026-11-02"
+  },
+  "nearest_stations": [
+    {"id": "KMDW", "name": "Chicago, Chicago Midway Airport", "elevation_ft": 617, "distance_miles": 9.6},
+    {"id": "KORD", "name": "Chicago, Chicago-O'Hare International Airport", "elevation_ft": 666, "distance_miles": 16.4},
+    {"id": "KGYY", "name": "Gary Regional Airport", "elevation_ft": 584, "distance_miles": 21.2},
+    {"id": "KPWK", "name": "Chicago / Wheeling, Pal-Waukee Airport", "elevation_ft": 646, "distance_miles": 22.4},
+    {"id": "KIDQ", "name": "Lansing Municipal Airport", "elevation_ft": 607, "distance_miles": 23.6}
+  ],
+  "current_conditions": {
+    "station_id": "KMDW",
+    "observed_local": "2026-11-02 6:53 PM local (37 min ago at capture)",
+    "temperature_f": 61.0,
+    "temperature_c": 16.1,
+    "conditions": "Cloudy",
+    "humidity_percent": 90,
+    "wind_mph": 54,
+    "wind_dir_deg": 180,
+    "pressure_inhg": 30.01,
+    "visibility_miles": 10.0,
+    "note": "Baseline snapshot captured 2026-11-02 from nearest reporting station KMDW (Chicago Midway), 9.6 mi from site. Cloudy, 90% humidity, wind 54 mph from 180°, pressure 30.01 inHg, visibility 10.0 mi."
+  }
+}
